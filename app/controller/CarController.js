@@ -44,7 +44,7 @@ Ext.define('Parking.controller.CarController', {
                                 <span class="card-label card-label-blue">'+recordData.get("vehicle_type")+'</span>\
                                 <span class="card-control">\
                                     <span class="card-mobile">'+recordData.get("mobile_no")+'</span>\
-                                    <a href="#" class="card-button card-button-blue">Call</a>\
+                                    <a href="tel:'+recordData.get('mobile_no')+'class="card-button card-button-blue">Call</a>\
                                     <a href="#" class="card-button card-button-red">Sms</a>\
                                 </span>\
                             </div>\
