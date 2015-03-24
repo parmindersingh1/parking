@@ -1,0 +1,35 @@
+{  
+   "cars":[  
+      {  
+         "id":"1",
+         "registration_no":"Doe123",
+         "capacity":"10",
+         "vehicle_type":"bus",
+         "first_name":"hello1",
+         "last_name":"world1",
+         "mobile_no":"9811111111"
+      },
+      {  
+         "id":"2",
+         "registration_no":"Smith123",
+         "capacity":"12",
+         "vehicle_type":"bus",
+         "first_name":"hello2",
+         "last_name":"world2",
+         "mobile_no":"9822222222"
+      },
+      {  
+         "id":"3",
+         "registration_no":"Jones123",
+         "capacity":"14",
+         "vehicle_type":"bus",
+         "first_name":"hello3",
+         "last_name":"world3",
+         "mobile_no":"9833333333"
+      }
+   ],
+   "message": "Vehicles Loaded Successfully",
+    "success": true,
+    "total": 3
+}
+
